@@ -1,5 +1,7 @@
 # Graphcool API Server
 
+[![Build Status](https://travis-ci.com/robertprice93/graphcool-api.svg?branch=master)](https://travis-ci.com/robertprice93/graphcool-api)
+
 Provides API Server which exposes HelloWorld query.
 
 ## Setup
