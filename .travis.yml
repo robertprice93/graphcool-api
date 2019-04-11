@@ -4,4 +4,5 @@ node_js:
 before_install:
     - "cd server"
 script:
+    - graphcool login --token eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTQ3MzQwNDYsImNsaWVudElkIjoiY2p1OGdpYWp6NWZyMDAxOThqbWZzNWhhbCJ9.b6T6GWUrhOK4jKqC2kl4I9jBZtZEQ1U6YlP1nPuvxCo
     - graphcool deploy
