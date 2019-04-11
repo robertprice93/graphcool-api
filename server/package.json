@@ -1,5 +1,8 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "Graphcool GraphQL API Service"
+  "description": "Graphcool GraphQL API Service",
+  "dependencies": {
+      "graphcool": "0.11.6"
+  }
 }
