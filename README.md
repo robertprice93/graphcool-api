@@ -1,6 +1,6 @@
 # Graphcool API Server
 
-Provides API Server to query Post data.
+Provides API Server which exposes HelloWorld query.
 
 ## Setup
 
