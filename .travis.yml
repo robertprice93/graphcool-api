@@ -4,8 +4,6 @@ node_js:
 before_install:
     - cd server
 install:
-    - npm install -g graphcool
-    - npm install -g codecov
     - npm install
 script:
     - npm test
