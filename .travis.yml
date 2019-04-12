@@ -7,6 +7,6 @@ install:
     - npm install
 script:
     - npm test
-    - codecov
+    - codecov --disable=gcov
 after_success:
     - graphcool deploy --target-prod
