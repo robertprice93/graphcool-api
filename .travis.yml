@@ -7,7 +7,7 @@ install:
     - npm install
 script:
     - npm test
-    - istanbul cover _mocha
+    - istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec
     - codecov
 after_success:
     - graphcool deploy --target-prod
