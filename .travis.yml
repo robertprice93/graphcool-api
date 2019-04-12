@@ -4,7 +4,8 @@ node_js:
 before_install:
     - cd server
 install:
-    - npm install -g codecov
+    - yarn add -g codecov
+    - yarn install
 script:
     - npm test
     - codecov
