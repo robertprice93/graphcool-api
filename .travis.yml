@@ -9,4 +9,4 @@ script:
     - npm test
     - codecov
 after_success:
-    - graphcool deploy
+    - graphcool deploy --target-prod
